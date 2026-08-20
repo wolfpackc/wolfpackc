@@ -5,231 +5,232 @@
 </p>
 
 <p align="center">
-  Building a strong technical foundation across offensive security, Windows internals, networking, scripting and low-level systems.
+  Perfil técnico centrado en ciberseguridad ofensiva, análisis de Windows, redes, scripting y fundamentos de bajo nivel.
 </p>
 
 ---
 
-## 👋 About Me
+## Sobre mí
 
-I am a cybersecurity-focused developer with a background in **Web Application Development (DAW)** and a growing specialization in **offensive security, Windows internals and network security**.
+Soy desarrollador con formación en **Desarrollo de Aplicaciones Web (DAW)** y una especialización cada vez más profunda en **ciberseguridad ofensiva, Windows Internals y seguridad de redes**.
 
-My learning approach is strongly hands-on: I build labs, document what I learn, analyze Windows security mechanisms, practice enumeration and exploitation in controlled environments, and turn the results into structured technical notes and write-ups.
+Mi forma de aprender es principalmente práctica: construyo laboratorios, documento lo que estudio, analizo mecanismos de seguridad de Windows, practico reconocimiento y explotación en entornos controlados y convierto los resultados en notas técnicas estructuradas y write-ups.
 
-I am especially interested in:
+Me interesan especialmente:
 
-- Windows security internals
-- Privilege escalation and token security
-- Network reconnaissance and traffic analysis
-- Pentesting methodology
-- Active Directory and lateral movement concepts
-- Web application security
-- PowerShell and offensive scripting
-- C, Assembly and low-level security concepts
-- Defensive understanding of offensive techniques
+- Windows Internals y seguridad del sistema operativo
+- Tokens, privilegios e impersonación
+- Escalada de privilegios
+- Reconocimiento y análisis de redes
+- Metodología de pentesting
+- Seguridad web
+- PowerShell y scripting orientado a seguridad
+- C, Assembly y fundamentos de bajo nivel
+- Comprensión defensiva de técnicas ofensivas
 
-> All security-related material in my repositories is intended for authorized labs, research and educational environments.
+> Todo el contenido relacionado con seguridad de mis repositorios está orientado a laboratorios autorizados, investigación y aprendizaje.
 
 ---
 
-## 🏅 Certification
+## Certificación
 
 ### eJPT — eLearnSecurity Junior Penetration Tester
 
-Hands-on penetration testing certification covering practical skills such as:
+Certificación práctica de pentesting que cubre áreas como:
 
-- Host and network reconnaissance
-- Service enumeration
-- Vulnerability identification
-- Web application assessment
-- Exploitation fundamentals
-- Pivoting and network segmentation
-- Post-exploitation concepts
-- Methodical pentesting workflows
+- Reconocimiento de hosts y redes
+- Enumeración de servicios
+- Identificación de vulnerabilidades
+- Evaluación de aplicaciones web
+- Fundamentos de explotación
+- Pivoting y segmentación de red
+- Post-explotación
+- Metodología de pentesting
 
-Repository: **[Preparación para la certificación eJPTv2](https://github.com/wolfpackc/Preparacion_para_la_certificacion_eJPTv2)**
+Repositorio relacionado: **[Preparación para la certificación eJPTv2](https://github.com/wolfpackc/Preparacion_para_la_certificacion_eJPTv2)**
 
 ---
 
-# 🔥 Featured Cybersecurity Work
+# Proyectos destacados de ciberseguridad
 
-## 🪟 Windows Internals & Security
+## Windows Internals & Security
 
 ### [WINDOWS](https://github.com/wolfpackc/WINDOWS)
 
-My main knowledge base for understanding Windows from a security perspective.
+Mi principal base de conocimiento para entender Windows desde una perspectiva de seguridad.
 
-Topics include:
+Temas incluidos:
 
-- Processes and threads
-- Access tokens
-- Primary vs impersonation tokens
-- Privileges and integrity levels
-- Token impersonation and duplication
-- Windows services and the Service Control Manager
-- User-mode services
-- Kernel drivers
-- UMDF concepts
+- Procesos e hilos
+- Access Tokens
+- Primary Token vs Impersonation Token
+- Privilegios e Integrity Levels
+- Impersonación y duplicación de tokens
+- Servicios de Windows y Service Control Manager
+- Servicios en user mode
+- Drivers en kernel mode
+- UMDF
 - UAC
-- Windows object security
-- Privilege escalation concepts
-- Windows debugging and internal structures
+- Seguridad de objetos de Windows
+- Conceptos de escalada de privilegios
+- Depuración con WinDbg
+- Estructuras internas de Windows
 
-The objective is not only to use Windows security tools, but to understand **why the techniques work internally**.
+El objetivo no es solo aprender herramientas, sino entender **por qué las técnicas funcionan internamente**.
 
 ---
 
-## 🎯 Hack The Box / CTF Methodology
+## Hack The Box / CTF Methodology
 
 ### [HackTheBox-CTF-Writeups](https://github.com/wolfpackc/HackTheBox-CTF-Writeups)
 
-Write-ups and notes focused on developing a repeatable attack methodology:
+Write-ups y notas orientadas a desarrollar una metodología de ataque repetible:
 
 ```text
-Reconnaissance
+Reconocimiento
       ↓
-Enumeration
+Enumeración
       ↓
-Attack Surface Analysis
+Análisis de superficie de ataque
       ↓
-Exploitation
+Explotación
       ↓
-Post-Exploitation
+Post-explotación
       ↓
-Privilege Escalation
+Escalada de privilegios
       ↓
-Documentation
+Documentación
 ```
 
-Key areas:
+Áreas principales:
 
-- Nmap-driven reconnaissance
-- Web enumeration
-- SMB / FTP / SSH / HTTP analysis
-- Credential discovery
-- Linux and Windows targets
-- Privilege escalation methodology
+- Reconocimiento con Nmap
+- Enumeración web
+- Análisis de SMB / FTP / SSH / HTTP
+- Descubrimiento de credenciales
+- Objetivos Linux y Windows
+- Metodología de escalada de privilegios
 
 ---
 
-## 🌐 Bettercap & Network Security
+## Bettercap & Network Security
 
 ### [Bettercap](https://github.com/wolfpackc/Bettercap)
 
-Structured learning repository covering Bettercap from fundamentals to advanced concepts.
+Repositorio de estudio estructurado sobre Bettercap, desde fundamentos hasta conceptos avanzados.
 
-Includes:
+Incluye:
 
-- Bettercap architecture
-- Network reconnaissance
+- Arquitectura de Bettercap
+- Reconocimiento de red
 - `net.recon`
 - `net.probe`
-- Packet sniffing
-- BPF filters
-- ARP concepts
-- MITM laboratory scenarios
+- Sniffing de tráfico
+- Filtros BPF
+- Fundamentos de ARP
+- Escenarios MITM en laboratorio
 - Caplets
 - Troubleshooting
-- Wi-Fi / BLE / API overview
+- Introducción a Wi-Fi / BLE / API
 
-The focus is on understanding the network behavior behind each module instead of memorizing commands.
+El enfoque es comprender qué ocurre en la red detrás de cada módulo y no limitarse a memorizar comandos.
 
 ---
 
-## 📡 Wireless Security
+## Wireless Security
 
 ### [WIFI](https://github.com/wolfpackc/WIFI)
 
-Notes and experiments around wireless networking and Wi-Fi security concepts.
+Notas y prácticas sobre redes inalámbricas y seguridad Wi-Fi.
 
-Areas of interest include:
+Áreas de estudio:
 
-- 802.11 fundamentals
-- Wireless reconnaissance
-- Wi-Fi authentication concepts
-- Packet capture
-- Network security analysis
+- Fundamentos de 802.11
+- Reconocimiento inalámbrico
+- Autenticación Wi-Fi
+- Captura de paquetes
+- Análisis de seguridad de redes inalámbricas
 
 ---
 
-## ⚙️ PowerShell & Windows Automation
+## PowerShell & Windows Automation
 
 ### [power-shell](https://github.com/wolfpackc/power-shell)
 
-PowerShell study and experimentation focused on Windows administration, automation and security-oriented scripting.
+Estudio y experimentación con PowerShell aplicados a administración de Windows, automatización y seguridad.
 
-Related areas:
+Áreas relacionadas:
 
-- Windows automation
-- Process interaction
-- System information
+- Automatización en Windows
+- Interacción con procesos
+- Información del sistema
 - Networking
-- Security tooling
-- PowerShell internals
+- Scripting de seguridad
+- Fundamentos internos de PowerShell
 
 ---
 
-## 🧠 Low-Level Foundations
+## Fundamentos de bajo nivel
 
 ### [C](https://github.com/wolfpackc/C)
 
-C programming as a foundation for understanding:
+Programación en C como base para comprender:
 
-- Memory
-- Pointers
-- Processes
-- Native APIs
-- Low-level system programming
-- Exploit-development concepts
+- Memoria
+- Punteros
+- Procesos
+- APIs nativas
+- Programación de sistemas
+- Fundamentos de exploit development
 
 ### [assembly-tutorial](https://github.com/wolfpackc/assembly-tutorial)
 
-Assembly notes and exercises aimed at strengthening low-level understanding of:
+Notas y ejercicios de Assembly orientados a reforzar conocimientos sobre:
 
-- CPU instructions
-- Registers
-- Stack behavior
-- Function calls
-- Memory addressing
-- x86/x64 concepts
+- Instrucciones de CPU
+- Registros
+- Stack
+- Llamadas a funciones
+- Direccionamiento de memoria
+- Conceptos x86/x64
 
-These subjects directly support deeper study of reverse engineering, Windows internals and vulnerability research.
+Estos conocimientos sirven como base para profundizar en reverse engineering, Windows Internals y análisis de vulnerabilidades.
 
 ---
 
-## ☁️ Cloud & Infrastructure
+## Cloud & Infrastructure
 
 ### [AZURE](https://github.com/wolfpackc/AZURE)
 
-Azure learning repository covering cloud fundamentals and infrastructure concepts relevant to modern security environments.
+Repositorio de aprendizaje sobre Azure y conceptos de infraestructura cloud relevantes para entornos modernos de seguridad.
 
 ---
 
-# 🧰 Technical Stack
+# Stack técnico
 
-## Security
+## Seguridad
 
 `Nmap` · `Metasploit` · `Wireshark` · `Bettercap` · `Burp Suite` · `Kali Linux` · `Windows` · `Linux` · `SMB` · `FTP` · `SSH` · `HTTP/S`
 
-## Windows / Low Level
+## Windows / Bajo nivel
 
 `Windows Internals` · `WinDbg` · `PowerShell` · `C` · `Assembly` · `Win32 API` · `Services` · `Access Tokens` · `Drivers`
 
-## Development
+## Desarrollo
 
 `PHP` · `JavaScript` · `HTML` · `CSS` · `Bootstrap` · `Python` · `Java` · `MySQL / MariaDB` · `Git`
 
-## Web / Infrastructure
+## Web / Infraestructura
 
 `WordPress` · `Apache` · `IIS` · `XAMPP` · `AWS` · `Azure`
 
 ---
 
-# 🧪 Home Lab Philosophy
+# Metodología de laboratorio
 
-I use isolated environments to reproduce concepts and understand systems through experimentation.
+Trabajo con entornos aislados para reproducir conceptos y comprender sistemas mediante experimentación.
 
-Typical lab components include:
+Una topología típica de laboratorio puede ser:
 
 ```text
                     ┌─────────────────┐
@@ -237,7 +238,7 @@ Typical lab components include:
                     │ Attacker / Test │
                     └────────┬────────┘
                              │
-                    Isolated Lab Network
+                    Red de laboratorio
                              │
            ┌─────────────────┼─────────────────┐
            │                 │                 │
@@ -247,65 +248,65 @@ Typical lab components include:
     └─────────────┘   └─────────────┘   └──────────┘
 ```
 
-I try to answer four questions whenever I study a technique:
+Intento responder siempre a cuatro preguntas cuando estudio una técnica:
 
-1. **What is happening?**
-2. **Why does it work?**
-3. **What does the operating system or protocol do internally?**
-4. **How could the behavior be detected or mitigated?**
+1. **¿Qué está ocurriendo?**
+2. **¿Por qué funciona?**
+3. **¿Qué hace internamente el sistema operativo o protocolo?**
+4. **¿Cómo podría detectarse o mitigarse?**
 
 ---
 
-# 🗺️ Current Focus
+# Áreas de estudio actuales
 
 ```text
-Cybersecurity
+Ciberseguridad
 │
-├── Offensive Security
-│   ├── Reconnaissance
-│   ├── Enumeration
-│   ├── Web Security
-│   ├── Network Attacks
-│   └── Privilege Escalation
+├── Seguridad ofensiva
+│   ├── Reconocimiento
+│   ├── Enumeración
+│   ├── Seguridad web
+│   ├── Ataques de red
+│   └── Escalada de privilegios
 │
-├── Windows Security
+├── Seguridad de Windows
 │   ├── Windows Internals
-│   ├── Tokens & Privileges
-│   ├── Services
+│   ├── Tokens y privilegios
+│   ├── Servicios
 │   ├── Drivers
 │   └── Debugging
 │
-├── Low Level
+├── Bajo nivel
 │   ├── C
 │   ├── Assembly
-│   └── Operating System Internals
+│   └── Internals de sistemas operativos
 │
-└── Defensive Perspective
-    ├── Traffic Analysis
-    ├── Attack Detection
-    └── Understanding TTPs
+└── Perspectiva defensiva
+    ├── Análisis de tráfico
+    ├── Detección de ataques
+    └── Comprensión de TTPs
 ```
 
 ---
 
-# 🚀 Professional Direction
+# Orientación profesional
 
-I am building toward roles where I can combine practical offensive-security knowledge with a strong understanding of operating systems and networks, including areas such as:
+Estoy orientando mi perfil hacia puestos donde pueda combinar conocimientos prácticos de seguridad ofensiva con una comprensión sólida de sistemas operativos y redes, especialmente en áreas como:
 
 - SOC / Security Operations
-- Junior Penetration Testing
-- Cybersecurity Analysis
-- Vulnerability Assessment
-- Windows Security Research
-- Threat Detection and Investigation
+- Pentesting junior
+- Análisis de ciberseguridad
+- Evaluación de vulnerabilidades
+- Seguridad de Windows
+- Threat Detection e investigación
 
-My goal is to continue turning theory into **documented, reproducible hands-on work**.
+Mi objetivo es seguir convirtiendo teoría en **trabajo práctico, documentado y reproducible**.
 
 ---
 
-## 📚 Repository Highlights
+## Repositorios destacados
 
-| Area | Repository |
+| Área | Repositorio |
 |---|---|
 | Windows Internals | [WINDOWS](https://github.com/wolfpackc/WINDOWS) |
 | Pentesting / eJPT | [Preparacion_para_la_certificacion_eJPTv2](https://github.com/wolfpackc/Preparacion_para_la_certificacion_eJPTv2) |
