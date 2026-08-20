@@ -78,6 +78,24 @@ Temas incluidos:
 
 El objetivo no es solo aprender herramientas, sino entender **por qué las técnicas funcionan internamente**.
 
+### [TokenSteal](https://github.com/wolfpackc/TokenSteal)
+
+Proyecto práctico en C para estudiar el funcionamiento de los **Access Tokens de Windows** y su uso en escenarios controlados de laboratorio.
+
+El proyecto implementa y documenta conceptos como:
+
+- Enumeración y apertura de procesos
+- `OpenProcessToken`
+- Privilegios como `SeDebugPrivilege` y `SeImpersonatePrivilege`
+- Duplicación de tokens mediante `DuplicateTokenEx`
+- Diferencia entre `Primary Token` e `Impersonation Token`
+- Impersonación del hilo actual
+- Inspección de SID, Integrity Level y privilegios habilitados
+- Creación de un nuevo proceso utilizando un token primario duplicado
+- Manejo de procesos protegidos y escenarios donde el acceso al token es denegado
+
+El objetivo del proyecto es trasladar la teoría de Windows Internals a código nativo y observar directamente cómo interactúan procesos, hilos, privilegios y tokens en user mode.
+
 ---
 
 ## Hack The Box / CTF Methodology
@@ -309,6 +327,7 @@ Mi objetivo es seguir convirtiendo teoría en **trabajo práctico, documentado y
 | Área | Repositorio |
 |---|---|
 | Windows Internals | [WINDOWS](https://github.com/wolfpackc/WINDOWS) |
+| Windows Token Security | [TokenSteal](https://github.com/wolfpackc/TokenSteal) |
 | Pentesting / eJPT | [Preparacion_para_la_certificacion_eJPTv2](https://github.com/wolfpackc/Preparacion_para_la_certificacion_eJPTv2) |
 | CTF Write-ups | [HackTheBox-CTF-Writeups](https://github.com/wolfpackc/HackTheBox-CTF-Writeups) |
 | Network Security | [Bettercap](https://github.com/wolfpackc/Bettercap) |
