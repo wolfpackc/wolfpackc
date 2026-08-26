@@ -217,9 +217,9 @@ En cada técnica intento responder a cuatro preguntas:
 <br><br>
 
 ```text
-Break things in labs.
-Understand why they break.
-Document what you learn.
+
+Prefiero dominar un campo pequeño que tener conocimientos superficiales en treinta.
+
 ```
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer" width="100%" />
