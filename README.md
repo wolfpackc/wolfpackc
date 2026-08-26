@@ -210,9 +210,7 @@ En cada técnica intento responder a cuatro preguntas:
 
 <div align="center">
 
-### `status: learning`
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wolfpackc&layout=compact&hide_border=true" alt="Top languages" />
 
 <br><br>
 
